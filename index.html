@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/logo.png" alt="Logo de alura con la inicial da letra a">
+    </header>
+    <main>
+        <section>
+            <textarea class="input-texto" cols="30" rows="6" placeholder="Ingrese el texto aquí"></textarea>
+            <div id="div-desaparece">
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>        
+        <section class="mensaje-box">
+            <textarea class="mensaje" cols="18" rows="13"></textarea>
+            <button class="copiar" onclick="copiar()">Copiar</button>
+        </section>        
+    </main>
+    <script src="script.js"></script>
+
+    <footer>
+        <a href="https://github.com/Michiwiwi"><img class="logo-github" src="imagenes/logo de github.png" alt="Logo de GitHub"></a>
+        <a href="https://www.linkedin.com/in/yanderierbugueno/"><img class="logo-linkedin" src="imagenes/logo de linkedin.png" alt="Logo de LinkedIn"></a>
+        <h1 class="copyright">&copy Copyright~2022</h1>
+    </footer>
+</body>
+</html>
+
