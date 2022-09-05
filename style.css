@@ -1,0 +1,126 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body{
+    background-color:  #F3F5FC;
+}
+
+header{
+    position: absolute;
+    margin: 30px 90px;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    
+}
+
+.input-texto{
+    margin: 120px;
+    background-color:  #F3F5FC;
+    border: none;
+    outline: none;   
+}
+
+.mensaje{
+    position: relative;
+    margin-top:  20px;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 250px;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+
+}
+
+.copiar {
+    width: 60%;
+    margin-left: 100px;
+    background-color: white;
+    border-color: #0A3871;
+    border-radius: 24px;
+    font-size: small;
+    padding: 15px 0;
+    color: #0A3871;
+}
+
+.copiar:hover{
+    background: cornsilk;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    font-family: "Inter", sans-serif;
+    margin-left: 120px;
+    
+}
+
+.encriptar {
+    width: 40%;
+    background-color: #0A3871;
+    font-size: small;
+    color:white;
+    border: none;
+    border-radius: 24px;
+    padding: 15px 0;   
+}
+
+.encriptar:hover{
+    background: darkblue;
+}
+
+.desencriptar {
+    width: 40%;
+    margin-left: 30px;
+    font-size: small;
+    background-color: #F3F5FC;
+    border-color: #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    padding: 15px 0;
+}
+
+.desencriptar:hover{
+    background: cornsilk;
+}
+
+.informacion {
+    margin-left: 120px;
+    margin-top: 50px;
+    font-size: 10px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    color: #495057;
+}
+
+.logo-github {
+    display: inline-block;
+    width: 2%;
+    height: 2%;
+    margin-right: 1em;
+    margin-left:  635px;
+    margin-top: 0%;
+}
+
+.logo-linkedin {
+    display: inline-block;
+    width: 2%;
+    height: 2%;
+}
+
+.copyright{
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    color: #495057;
+}
+
